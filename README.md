@@ -1,4 +1,4 @@
-## 📖 Overview
+## Overview
 
 This repository delivers a **structured and data-driven analysis** of battery performance over extensive time-series data. Key features include:
 
@@ -26,7 +26,7 @@ This repository delivers a **structured and data-driven analysis** of battery pe
 ### 4. Exploratory Data Analysis (EDA) 
 - **Univariate**: Histograms for Voltage, Current, Capacity, and Energy to understand distributions.
 - **Bivariate**: Scatter plots (e.g., Voltage vs. Current, Capacity vs. Voltage) to reveal interactions.
-- **Cycle-Based**: Grouped by `Cycle_Index` to plot average Voltage and Capacity, showing trends like capacity fade.
+- **Cycle-Based**: Grouped by `Cycle_Index` to plot average Voltage and Capacity, showing respective trends.
 - **Setup**: 3x3 subplot grid with Matplotlib for clear visualizations.
 
 ### 5. Data Cleaning (Time Conversion) 
@@ -50,7 +50,7 @@ Capacity(k+1) = Capacity(k) + |Current(k+1)| * (time(k+1) - time(k)) / 3600
 ### 8. Battery Performance Visualizations 
 - **Profiles**: Capacity vs. Voltage for first five cycles (charge/discharge).
 - **Trends**: Charge/Discharge Capacity vs. Cycle Index to show degradation.
-- **C-rate Impact**: Scatter plots of C-rate vs. Capacity with correlations (-0.833 charge, 0.667 discharge).
+- **C-rate Impact**: Scatter plots of C-rate vs. Capacity with correlations.
 - **Design**: 3x2 subplot grid with clear labels and legends.
 
 ### 9. Polynomial Regression for Prediction 
@@ -73,7 +73,7 @@ Capacity(k+1) = Capacity(k) + |Current(k+1)| * (time(k+1) - time(k)) / 3600
 - **SOH Comparison**: Charge vs. Discharge SOH with shaded difference area.
 
 ### 12. Correlation and Statistical Analysis 
-- **Correlation Matrix**: Heatmap of Cycle_Index, Capacity, SOH, and C-rate relationships (e.g., negative Cycle-SOH correlation).
+- **Correlation Matrix**: Heatmap of Cycle_Index, Capacity, SOH, and C-rate relationships.
 - **Statistical Tests**: Pearson tests for significance (r-values, p-values).
 - **Purpose**: Quantified and validated variable relationships.
 
