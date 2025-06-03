@@ -1,6 +1,6 @@
 ## 📖 Overview
 
-This repository delivers a **structured and data-driven analysis** of lithium-ion battery performance over extensive time-series data. Key features include:
+This repository delivers a **structured and data-driven analysis** of battery performance over extensive time-series data. Key features include:
 
 - **Visual Cues**: Stunning visualizations of voltage, capacity, and C-rate trends.
 - **Practical Metrics**: State of Health (SOH), C-rate, and capacity fade analysis.
